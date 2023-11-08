@@ -1,5 +1,6 @@
 import streamlit as st
-import pandas as pd
+import tensorflow.keras as keras
+import numpy as np
 
 # Load the model
 model_path = 'https://github.com/smuggerteey/Churn_Prediction_Assignment/blob/main/TrainedModel-20231108T232935Z-001.zip'
