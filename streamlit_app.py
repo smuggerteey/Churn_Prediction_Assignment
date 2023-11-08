@@ -35,7 +35,7 @@ def main():
 
 
     # Rendering the HTML file
-    with open('/content/drive/My Drive/Colab Notebooks/Assignment3/churn_prediction.html') as f:
+    with open('churn_prediction.html') as f:
         html_content = f.read()
     st.markdown(html_content, unsafe_allow_html=True)
 
