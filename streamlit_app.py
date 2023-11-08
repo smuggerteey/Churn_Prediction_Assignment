@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow.keras as keras
 
 # Load the model
-model_path = 'https://raw.githubusercontent.com/yourusername/yourrepository/main/models/model.h5'
+model_path = 'https://github.com/smuggerteey/Churn_Prediction_Assignment/blob/main/TrainedModel-20231108T232935Z-001.zip'
 model = keras.models.load_model(model_path)
 
 def main():
