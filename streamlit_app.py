@@ -14,7 +14,7 @@ import numpy as np
 # Load the trained model
 #from google.colab import drive
 #drive.mount('/content/drive')
-model = keras.models.load_model('/content/drive/My Drive/Colab Notebooks/Assignment3/TrainedModel')
+model = keras.models.load_model('TrainedModel-20231108T232935Z-001.zip')
 
 def main():
     st.title('Model Deployment with Streamlit')
