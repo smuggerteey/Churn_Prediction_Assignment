@@ -1,8 +1,9 @@
 import streamlit as st
-import numpy as np
+import tensorflow.keras as keras
 
-# Load the trained model
-model = keras.models.load_model('TrainedModel-20231108T232935Z-001.zip')
+# Load the model
+model_path = 'https://raw.githubusercontent.com/yourusername/yourrepository/main/models/model.h5'
+model = keras.models.load_model(model_path)
 
 def main():
     st.title('Model Deployment with Streamlit')
